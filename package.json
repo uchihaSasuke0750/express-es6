@@ -1,0 +1,48 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social Network for Developers",
+  "main": "server.js",
+    "scripts": {
+    
+    "start": "nodemon — exec babel-node server.js",
+    "build" : "babel server.js — out-file index-compiled.js",
+    "server": "nodemon server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaman221b/devConnector.git"
+  },
+  "author": "Uchiha Sasuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iaman221b/devConnector/issues"
+  },
+  "homepage": "https://github.com/iaman221b/devConnector#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "generate-password": "^1.5.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.6",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-facebook-token": "^3.3.0",
+    "request": "^2.88.2",
+    "strategy": "^1.1.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.8",
+    "nodemon": "^2.0.2"
+  }
+}
